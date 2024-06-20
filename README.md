@@ -58,17 +58,53 @@ The project is structured as follows:
 
 Training the Model
 
-Four models have been trained..Random Forest Classifier, Logistic Regression, Support Vector and Neural Network but Logistic Regression Model has the highest accuracy. So this model only has been used for making Flask Dashboard.
+Random Forest Regressor Model has been used through Pipeline for making Flask Dashboard. And also TfidfVectorizer to change the text.
 
 Running the Web App
 
-Navigate to the app/directory and it can be run by running the app.py(python file) by giving the command flask run
+Navigate to the app/directory and it can be run by running the app.py(python file) by giving the command flask run and streamlit run
 
-This is the link for Twitter Dashboard
+Running the Dockerfile
+
+docker build --no-cache -t nitimasaigal/project8-job_recommendation_system:latest .
+docker run -d -p 3000:3000 nitimasaigal/project8-job_recommendation_system:latest
+
+
+This is the link for Dashboard
+
+Task 5:
+You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://192.168.1.2:8502
+
+Local URL: http://localhost:8512
+  Network URL: http://192.168.1.2:8512
+
+
+
+Task 6:
+You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8503
+  Network URL: http://192.168.1.2:8503
+
+Task 7:
+Local URL: http://localhost:8504
+Network URL: http://192.168.1.2:8504
+
+Task 7.1:
+Local URL: http://localhost:8505
+Network URL: http://192.168.1.2:8505
+
 
 Relationship between all the features and target
 
-correlation between all the features which have been created and the Target is as follows: image
+correlation between all the features which have been created and the Target is as follows: ![correlation_plot](https://github.com/nitimasaigal/Project-8-Job-Market-Analysis-and-Recommendation-System/assets/146649752/ca168741-7ff8-4110-ad0d-818691455cc9)
+
+Predicting Future job market trends with Potential Future scenarios: ![image](https://github.com/nitimasaigal/Project-8-Job-Market-Analysis-and-Recommendation-System/assets/146649752/b6547675-ff82-4e9d-ad4b-d6c2707002be)
+
+
 
 Credits/Acknowledgements
 
