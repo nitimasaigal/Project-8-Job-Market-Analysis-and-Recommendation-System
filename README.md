@@ -4,7 +4,7 @@ The primary objective of this project is to analyze job market trends and build 
 
 Prerequisites
 
-Before running the project, we need to ensure that we have the following dependencies installed: Python (version 3.6 or higher) Flask (pip install Flask) Sklearn (pip install scikit-learn) Pandas (pip install pandas) numpy (pip install numpy) regression and classification models (as per the dataset) TF-IDF Vectorizer or CountVectorizer Wordcloud etc.
+Before running the project, we need to ensure that we have the following dependencies installed: Python (version 3.6 or higher) Flask (pip install Flask) Sklearn (pip install scikit-learn) Pandas (pip install pandas) numpy (pip install numpy) regression and classification models (as per the dataset) TF-IDF Vectorizer.
 
 Project Structure
 
@@ -67,7 +67,17 @@ Navigate to the app/directory and it can be run by running the app.py(python fil
 Running the Dockerfile
 
 docker build --no-cache -t nitimasaigal/project8-job_recommendation_system:latest .
+
 docker run -d -p 3000:3000 nitimasaigal/project8-job_recommendation_system:latest
+
+
+Link for Dockerfile:
+
+Running on all addresses (0.0.0.0)
+
+Running on http://127.0.0.1:3000
+
+Running on http://172.17.0.8:3000
 
 
 This is the link for Dashboard
