@@ -82,6 +82,11 @@ Running on http://127.0.0.1:3000
 Running on http://172.17.0.8:3000
 
 
+Link for Docker hub after push
+
+https://hub.docker.com/repository/docker/nitimasaigal/project8-job_recommendation_system/builds
+
+
 This is the link for Dashboard
 
 Task 5:
