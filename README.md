@@ -14,6 +14,8 @@ The project is structured as follows:
 
 | |--static/
 
+| | |--style.css
+
 | |--templates/
 
 | | |--index.html
